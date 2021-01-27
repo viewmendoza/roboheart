@@ -1,0 +1,57 @@
+@font-face {
+	font-family: 'robo_love2';
+	src:url('fonts/robo_love2.eot');
+	src:url('fonts/robo_love2.eot?#iefix') format('embedded-opentype'),
+		url('fonts/robo_love2.woff') format('woff'),
+		url('fonts/robo_love2.ttf') format('truetype'),
+		url('fonts/robo_love2.svg#robo_love2') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'robo_love2';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-astroboy, .icon-ironman, .icon-mazinger, .icon-robotech, .icon-optimus_prime, .icon-mechwarrior {
+	font-family: 'robo_love2';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-astroboy:before {
+	content: "\21";
+}
+.icon-ironman:before {
+	content: "\22";
+}
+.icon-mazinger:before {
+	content: "\23";
+}
+.icon-robotech:before {
+	content: "\24";
+}
+.icon-optimus_prime:before {
+	content: "\25";
+}
+.icon-mechwarrior:before {
+	content: "\26";
+}
