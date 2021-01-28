@@ -1,3 +1,5 @@
 Created by Codrops
 
-Please read more about our license here: http://tympanus.net/codrops/licensing/ 
+Please read more about the license here: http://tympanus.net/codrops/licensing/ 
+
+Added in Foundation Zurb elements and Jquery
